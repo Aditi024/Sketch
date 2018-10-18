@@ -1,0 +1,37 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+ h1 {
+  text-align: center;
+  Font-size: 35px;
+  text-decoration: underline;
+  padding-top:20px;
+}
+
+p {
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+}
+
+canvas {
+  align-items: center;
+  background: #FF9999;
+  display: block;
+  margin: 10;
+  cursor: progress;
+  left: 0;
+  right: 0;
+  margin:auto;
+}
+ /* .myCanvas {
+  text-align:center;
+ } */
+
+ .footer {
+   text-align: center;
+ }
