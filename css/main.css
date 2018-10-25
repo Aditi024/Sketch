@@ -35,3 +35,12 @@ canvas {
  .footer {
    text-align: center;
  }
+
+ a {
+  background: lightblue;
+  color: black;
+  padding: 5px 10px;
+  font-family: Helvetica Neue;
+  align-items: center;
+  text-decoration: underline;
+}

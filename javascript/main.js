@@ -22,6 +22,7 @@ window.addEventListener('keydown', function() {
 });
 
 
+
 ;(function draw() {
   requestAnimationFrame(draw);
   //ctx.clearRect(0, 0, W, H);
@@ -43,3 +44,11 @@ window.addEventListener('keydown', function() {
   lastMouseY = mouseY;
 
 })();
+
+var link = document.createElement('a');
+    link.innerHTML = 'download image';
+link.addEventListener('click', function(ev) {
+    link.href = canvas.toDataURL();
+    link.download = "mypainting.png";
+}, false);
+document.body.appendChild(link);
